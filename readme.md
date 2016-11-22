@@ -12,9 +12,12 @@ and Actions.
     * https://nodejs.org/en/
 2. install mongodb
     * https://docs.mongodb.com/
-3. git clone https://mattcatellier@bitbucket.org/mattcatellier/node_react_mongo_socet_demo.git
-4. cd node_react_mongo_socet_DEMO
-5. npm install
-6. bower install
-7. gulp build
-8. npm start
+3. install bower
+    * npm install -g bower
+4. git clone https://mattcatellier@bitbucket.org/mattcatellier/node_react_mongo_socet_demo.git
+5. cd node_react_mongo_socet_DEMO
+6. npm install (server side dependancies)
+7. bower install (client side dependencies)
+8. gulp build
+9. mongod (to start mongodb)
+10. npm start
