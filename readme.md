@@ -6,6 +6,9 @@ Most of it code was given to you, just needed to put it in the right place.   Us
 introduces many new technologies and explains pretty well how React updates the DOM through EventStores
 and Actions.
 
+"In this tutorial we are going to build a character voting app (inspired by Facemash and Hot or Not)
+for EVE Online - a massively multiplayer online game"
+
 ## Onboarding
 
 1. install node
