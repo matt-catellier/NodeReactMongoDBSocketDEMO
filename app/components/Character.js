@@ -8,7 +8,7 @@ class Character extends React.Component {
     this.state = CharacterStore.getState();
     this.onChange = this.onChange.bind(this);
   }
-
+  
   componentDidMount() {
     CharacterStore.listen(this.onChange);
     CharacterActions.getCharacter(this.props.params.id);

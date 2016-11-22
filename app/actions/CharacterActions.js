@@ -2,7 +2,7 @@ import alt from '../alt';
 
 class CharacterActions {
   constructor() {
-    this.generateActions(
+    this.generateActions( // these are event handlers
       'reportSuccess',
       'reportFail',
       'getCharacterSuccess',
@@ -10,7 +10,7 @@ class CharacterActions {
     );
   }
 
-  getCharacter(characterId) {
+  getCharacter(characterId) { // these are command handlers
     $.ajax({ url: '/api/characters/' + characterId })
       .done((data) => {
         this.actions.getCharacterSuccess(data);
